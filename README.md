@@ -2,7 +2,7 @@
 This is a packet sniffing program written in Python for the Something Awesome Project. The program creates a raw socket that constantly listens for any packets that are sent in and out of the computer. It binds all the IP addresses of the computer and runs the program in a thread for every IP address. The program then unpacks all the data through many bit-wise operations and prints it out to the terminal. Additionally, the program makes an API call to Google Drive every 10 packets detected and writes all the data that was printed out to a Google Doc, ensuring everything is recorded.
 
 ## Installation
-1. Clone the repository using git clone https://github.com/your-username/packet-sniffing-program.git
+1. Clone the repository using git clone https://github.com/raymond-cen/packet-sniffing-program.git
 2. Install the required dependencies using pip install -r requirements.txt
 3. Run the program using python sniff_packets.py
 # How it works
